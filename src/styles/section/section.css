@@ -38,7 +38,7 @@ section {
                 box-shadow 0.3s ease-in-out;
 }
 
-.circulo:hover {
+.circulo.hovered {
     transform: scale(1.2);
     box-shadow: 0 0 20px rgba(244, 86, 0, 0.5);
 }
@@ -46,6 +46,11 @@ section {
     terá uma animação durante o click com o circulo "pulando"
     pra fora e a animação dos icones aparecendo
 */
+.circulo-click {
+    transform: scale(1.5);
+    box-shadow: 0 0 20px rgba(244, 86, 0, 0.5);
+}
+
 .circulo img {
     width: 100%;
     height: 100%;
