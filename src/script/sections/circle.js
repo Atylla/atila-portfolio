@@ -2,22 +2,28 @@ export const btnCircle = () => {
     const btn = document.querySelector('.circulo');
 
     btn.addEventListener('mouseenter', () => {
-        btn.classList.add('hovered');
-    })
+        if (!btn.classList.contains('circulo-click')) {
+            btn.classList.add('hovered');
+        }
+    });
+
     btn.addEventListener('mouseleave', () => {
         btn.classList.remove('hovered')
     })
 
     btn.addEventListener('click', (e) => {
-        console.log('clicado');
         e.stopPropagation();
 
-        btn.classList.remove('hovered');
-        btn.classList.add('circulo-click');
+        if (btn.classList.contains('circulo-click')) {
+            btn.classList.remove('circulo-click');
+        } else {
+            btn.classList.remove('hovered');
+            btn.classList.add('circulo-click');
+        }
     })
 
     document.addEventListener('click', (e) => {
-        if(!btn.contains(e.target)) {
+        if (!btn.contains(e.target)) {
             btn.classList.remove('circulo-click');
         }
     })
