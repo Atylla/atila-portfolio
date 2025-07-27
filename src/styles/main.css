@@ -1,0 +1,18 @@
+@import '/src/styles/header/nav.css';
+@import '/src/styles/section/section.css';
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #fffaf5;
+}
+
+body{
+    padding: 75px;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+}
