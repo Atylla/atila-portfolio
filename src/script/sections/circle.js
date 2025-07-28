@@ -1,9 +1,9 @@
 const bulletInfos = {
     sobre: [
         'Sobre mim',
-        'Apaixonado por tecnologia',
-        'Criativo',
-        'Muito bom'
+        'Atila Souza, graduado em Engenharia de Software',
+        'Atuo como desenvolvedor em constante aprendizado',
+        'Além de web, também exploro mobile, desktop e backend'
     ],
     graduacao: [
         'Graduação',
@@ -13,13 +13,15 @@ const bulletInfos = {
     ],
     abordagem: [
         'Abordagem',
-        'Soluções criativas com foco em usabilidade'
+        'Busco entender o todo: UI, lógica, infraestrutura',
+        'Gosto de criar soluções funcionais, criativas e bem pensadas',
+        'Trago uma postura curiosa, analítica e proativa'
     ],
     fora: [
         'Fora do código',
-        'Filosofia',
-        'RPG',
-        'Musico'
+        'Músico multi-instrumentista',
+        'Fã de RPG e filosofia',
+        'Uso essas paixões pra pensar diferente e criar com empatia'
     ]
 
 }
