@@ -1,5 +1,5 @@
 @import '/src/styles/header/nav.css';
-@import '/src/styles/section/section.css';
+@import '/src/styles/section/section-1.css';
 
 html,
 body {
@@ -10,7 +10,8 @@ body {
 }
 
 body{
-    padding: 75px;
+    padding: 130px;
+    padding-top: 100px;
 }
 
 h1{
