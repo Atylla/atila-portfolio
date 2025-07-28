@@ -95,11 +95,10 @@ const skill = {
 
 export const skills = () => {
 
-    const container = document.querySelector('.description-skills');
     const titulo = document.querySelector('.skill-nome');
-    const barProgress = document.querySelector('.progress-bar');
     const progresso = document.querySelector('.progress');
     const wrapTopico = document.querySelector('.topico-wrap');
+    const btnVerProjetos = document.querySelector('.ver-projetos');
     
     let item = skill['javascript']; 
 
@@ -113,19 +112,23 @@ export const skills = () => {
             topico.innerText = i;
             wrapTopico.appendChild(topico);
         });
+
+        btnVerProjetos.setAttribute('data-filter', 'javascript');
     }
 
     document.querySelectorAll('.skill-icon').forEach(icon => {
         icon.addEventListener('mouseenter', () => {
             const data = icon.getAttribute('data-skill');
             const skIcon = icon.querySelector('.sk-icon');
-
+            
             item = skill[data];
             wrapTopico.innerHTML = '';
 
             document.querySelectorAll('.sk-icon.show').forEach(el => {
                 el.classList.remove('show');
             });
+
+            btnVerProjetos.setAttribute('data-filter', data);
 
             if(item) {
                 titulo.innerText = item.nome
