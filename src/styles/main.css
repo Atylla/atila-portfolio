@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    background-color: #fffefe;
+    background-color: #fff8f4;
     scroll-behavior: smooth;
 }
 
@@ -24,4 +24,23 @@ h1{
     margin: 0;
     padding-left: 10px;
     color: #f45600;
+}
+
+section {
+    padding: 25px 60px;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+    box-shadow: -3px 0 8px -4px rgba(0, 0, 0, 0.15),
+        3px 0 8px -4px rgba(0, 0, 0, 0.15);
+    min-height: 450px;
+    box-sizing: border-box;
+    
+}
+
+.bloco {
+    transition: transform 0.4s ease, background 0.4s;
+}
+
+.bloco.middle {
+  transform: scale(1.03);
 }
