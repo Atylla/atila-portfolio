@@ -12,3 +12,12 @@ export const navBar = () => {
         })
     })
 }
+
+export const toggleInterruptor = () => {
+    const toggle = document.querySelector('.toggleDark');
+
+    toggle.addEventListener('click', () => {
+        toggle.classList.toggle('dark');
+        document.body.classList.toggle('dark-mode');
+    })
+}

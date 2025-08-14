@@ -1,5 +1,5 @@
 import { loadingInitial } from "./inicial.js/loading.js";
-import { navBar } from "./navegacao/nav-bar.js";
+import { navBar, toggleInterruptor } from "./navegacao/nav-bar.js";
 import { cardsProjetos } from "./projetos/cards.js";
 import { btnCircle } from "./sections/circle.js";
 import { sectionFocus } from "./sections/section.js";
@@ -17,4 +17,5 @@ document.addEventListener("DOMContentLoaded", () => {
     verProjetos();
     cardsProjetos();
     sectionFocus();
+    toggleInterruptor();
 });

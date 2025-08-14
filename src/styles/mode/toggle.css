@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #fff8f4;
+    --sec-bg-color: #fff;
+    --header-bg-color: #fff;
+    --button-bg-color: #fff;
+    --boxShadow-button: rgba(0, 0, 0, 0.2);
+    --text-color: #333;
+    --color-icon: #555;
+    --color-icon-hover: #333;
+    --color-text-d-skill: #f45600;
+}
+
+body.dark-mode {
+    --bg-color: #222;
+    --sec-bg-color: #161616;
+    --header-bg-color: #161616;
+    --button-bg-color: #111;
+    --boxShadow-button: rgba(255, 255, 255, 0.05);
+    --text-color: #eee;
+    --color-icon: #ddd;
+    --color-icon-hover: #ccc;
+    --color-text-d-skill: #eee;
+}
