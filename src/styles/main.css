@@ -38,6 +38,12 @@ section {
     
 }
 
+@media (max-width: 800px) {
+    section {
+        padding: 25px 40px
+    }
+}
+
 .bloco {
     transition: transform 0.4s ease, background 0.4s;
 }

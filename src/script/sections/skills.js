@@ -65,6 +65,15 @@ const skill = {
             'GitHub Pages (deploy básico)',
         ]
     },
+    react: {
+        nome: 'React',
+        progress: '50%',
+        topicos: [
+            'Componentes',
+            'Props',
+            'Scss'
+        ]
+    },
     reactNative: {
         nome: 'React Native',
         progress: '50%',
