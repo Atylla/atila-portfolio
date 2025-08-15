@@ -116,13 +116,11 @@ nav a {
   all: unset;
 }
 #header .toggleDark:hover {
-  background: none;      /* remove laranja */
-  box-shadow: none;      /* remove sombra de hover */
-  color: inherit;        /* mantém cor original */
+  background: none; 
+  box-shadow: none;
+  color: inherit;
 }
 
-
-/* Botão do toggle */
 #header .toggleDark {
   position: absolute;
   left: 30px;
@@ -135,7 +133,6 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-/* Bolinha que vai deslizar */
 #box-toggle-roll {
   position: absolute;
   top: 1px;
@@ -147,12 +144,40 @@ nav a {
   transition: left 0.3s ease;
 }
 
-/* Estado dark ativo */
 .toggleDark.dark {
-  background-color: #333; /* fundo escuro */
+  background-color: #333;
 }
 
 .toggleDark.dark #box-toggle-roll {
-   /* desloca pra direita (60 - 24 - 3) */
   left: 26px;
+}
+
+@media (max-width: 800px) {
+  #header {
+    height: 60px;
+  }
+
+  #header button {
+    width: 90px;
+    height: 25px;
+    padding: 2px;
+    font-size: 13px;
+  }
+
+  #header .toggleDark {
+    left: 20px;
+    width: 35px;
+    height: 20px;
+  }
+
+  #box-toggle-roll {
+    top: 2px;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .toggleDark.dark #box-toggle-roll {
+    left: 18px;
+  }
 }

@@ -155,3 +155,21 @@
     left: 0;
     color: #f45600;
 }
+
+@media (max-width: 800px) {
+    .skills-container {
+        width: 95%;
+        gap: 8px;
+    }
+
+    .description-skills {
+        width: 85%;
+        margin-top: 5px;
+
+
+    }
+
+    .topico-wrap p {
+        font-size: 13px;
+    }
+}

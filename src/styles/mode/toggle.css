@@ -1,4 +1,5 @@
 :root {
+    --load-bg-color: #fff;
     --bg-color: #fff8f4;
     --sec-bg-color: #fff;
     --header-bg-color: #fff;
@@ -11,6 +12,7 @@
 }
 
 body.dark-mode {
+    --load-bg-color: #222;
     --bg-color: #222;
     --sec-bg-color: #161616;
     --header-bg-color: #161616;

@@ -175,6 +175,7 @@
     color: var(--text-color);
     padding-right: 10px;
 }
+
 @media (max-width: 700px) {
     #section-1 {
         grid-template-columns: 1fr;
@@ -185,6 +186,30 @@
         text-align: center;
         font-size: 36px;
     }
+
+    .circulo-wrapper {
+        margin-top: 10px;
+    }
+    .coluna-1 {
+        height: 330px;
+    }
+    .coluna-2 {
+        margin-top: -60px;
+    }
+    .coluna-2 p {
+        font-size: 14px;
+        line-height: 1.4;
+        padding-right: 6px;
+    }
+    #bullet-point {
+        position: absolute;
+        display: none;
+    }
+    .container-icons {
+        position: absolute;
+        display: none;
+    }
+    .circulo-click {
+        transform: scale(1.02);
+    }
 }
-
-
