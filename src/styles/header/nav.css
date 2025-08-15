@@ -198,3 +198,18 @@ nav a {
     left: 18px;
   }
 }
+
+@media (max-width: 400px) {
+  #header button {
+    width: 76px;
+    height: 20px;
+    top: 3px;
+    font-size: 12px;
+    margin-left: 2px;
+  }
+
+  #header .toggleDark {
+    top: 65px;
+    left: 7px;
+  }
+}

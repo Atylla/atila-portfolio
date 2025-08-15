@@ -3,100 +3,90 @@ const skill = {
         nome: 'Html5',
         progress: '90%',
         topicos: [
-            'Estrutura Básica',
-            'Tags Semânticas',
-            'Formatação',
-            'Listas',
-            'Links e Navegação',
-            'Imagens e Mídia',
-            'Formulários',
-            'Tabelas',
-            'Atributos Globais'
+            'Domínio de estrutura semântica',
+            'Criação e organização de layouts',
+            'Formulários funcionais e tabelas',
+            'Links, listas e navegação eficaz',
+            'Incorporação de imagens e mídia',
+            'Uso correto de atributos globais'
         ]
     },
     css3: {
         nome: 'Css3',
         progress: '60%',
         topicos: [
-            'Seletores básicos (classe, id, elemento)',
-            'Box Model (margin, padding, border, content)',
-            'Display (block, inline, inline-block, none)',
-            'Posicionamento (relative, absolute, fixed)',
-            'Flexbox (conceito e propriedades principais)',
-            'Cores, fontes e background',
+            'Seletores e hierarquia avançada',
+            'Controle do Box Model e posicionamento',
+            'Layouts com Flexbox e Grid',
+            'Estilização responsiva e cores',
             'Pseudo-classes e pseudo-elementos',
-            'Transições simples e hover',
+            'Transições e animações básicas'
         ]
     },
     javascript: {
         nome: 'JavaScript',
         progress: '70%',
         topicos: [
-            'Variáveis (let, const, var)',
-            'Tipos de dados e operadores',
-            'Funções (declarativas, expressões e arrow)',
-            'Condicionais e loops',
-            'Manipulação de DOM (querySelector, addEventListener)',
-            'Eventos e interatividade básica',
-            'Arrays e objetos (e métodos comuns)',
+            'Manipulação de variáveis e tipos',
+            'Funções declarativas e arrow',
+            'Controle de fluxo: loops e condicionais',
+            'Manipulação do DOM e eventos',
+            'Arrays e objetos com métodos avançados',
             'Funções de ordem superior (map, filter, reduce)',
-            'JSON e armazenamento local (localStorage)',
+            'Trabalho com JSON e localStorage'
         ]
     },
     git: {
         nome: 'Git',
         progress: '50%',
         topicos: [
-            'Git init e Git clone',
-            'Git add, commit e status',
-            'Git log e histórico de commits',
-            'Branches: criação, merge e switch',
-            'Git diff e git checkout',
+            'Gerenciamento de repositórios locais',
+            'Controle de commits e histórico',
+            'Criação e fusão de branches',
+            'Diferenças de código e restauração',
+            'Fluxos de trabalho colaborativos'
         ]
     },
     github: {
         nome: 'GitHub',
         progress: '50%',
         topicos: [
-            'Criação de repositório remoto',
-            'Conectar repositório local ao GitHub (origin)',
-            'Push e pull',
-            'Fork e clone de projetos',
-            'GitHub Pages (deploy básico)',
+            'Criação e gerenciamento de repositórios remotos',
+            'Integração com repositórios locais',
+            'Push, pull e sincronização de código',
+            'Fork, clone e contribuições externas',
+            'Deploy de projetos com GitHub Pages'
         ]
     },
     react: {
         nome: 'React',
         progress: '50%',
         topicos: [
-            'Componentes',
-            'Props',
-            'Scss'
+            'Criação de componentes funcionais',
+            'Uso de props para comunicação',
+            'Estilização com SCSS modular'
         ]
     },
     reactNative: {
         nome: 'React Native',
         progress: '50%',
         topicos: [
-            'Criação de projeto com Expo',
-            'Componentes funcionais',
-            'JSX básico',
-            'Uso de `useState`',
-            'Estilização com StyleSheet',
-            'ScrollView e FlatList',
-            'Navigation básica (StackNavigation)',
+            'Configuração de projetos com Expo',
+            'Componentes funcionais e JSX',
+            'Gerenciamento de estado com useState',
+            'ScrollView, FlatList e navegação básica',
+            'Estilização com StyleSheet'
         ]
     },
     electron: {
         nome: 'Electron',
         progress: '60%',
         topicos: [
-            'Estrutura básica de projeto (main e renderer)',
-            'Criação de janela (BrowserWindow)',
-            'Integração com HTML/CSS/JS',
-            'Main vs Renderer process',
-            'IPC (comunicação entre processos)',
-            'Build e empacotamento com Electron Forge ou Builder',
+            'Estrutura básica main e renderer',
+            'Criação de janelas com BrowserWindow',
+            'Integração HTML, CSS e JS',
+            'Comunicação entre processos (IPC)',
+            'Empacotamento com Electron Forge ou Builder'
         ]
     }
 }
