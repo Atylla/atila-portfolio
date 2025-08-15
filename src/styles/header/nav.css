@@ -17,6 +17,17 @@ nav {
   margin-right: 20px;
 }
 
+nav .nav-btn.active {
+  color: white;
+  background: linear-gradient(to right, #f45600, #eb8d00);
+  box-shadow: 2px 3px 6px rgba(244, 86, 0, 0.4);
+}
+
+nav .nav-btn.active a {
+  color: white;
+}
+
+
 nav a {
   color: #f45600;
   width: 100%;
@@ -90,22 +101,28 @@ nav a {
 }
 
 #header button:hover::before,
-#header button:hover::after {
+#header button.active::before,
+#header button:hover::after,
+#header button.active::after {
   transform: scaleX(1);
 }
 
 #header button:hover span.left,
-#header button:hover span.right {
+#header button.active span.left,
+#header button:hover span.right,
+#header button.active span.right {
   transform: scaleY(1);
 }
 
-#header button:hover {
+#header button:hover,
+#header button.active {
   color: white;
   background: linear-gradient(to right, #f45600, #eb8d00);
   box-shadow: 2px 3px 6px rgba(244, 86, 0, 0.4);
 }
 
-#header button:hover a {
+#header button:hover a,
+#header button.active a {
   color: white;
 }
 
