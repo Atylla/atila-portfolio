@@ -5,6 +5,7 @@
 @import '/src/styles/section/section-3.css';
 @import '/src/styles/section/section-4.css';
 @import '/src/styles/loading/inicial.css';
+@import '/src/styles/footer/footer.css';
 
 
 html,
@@ -20,6 +21,8 @@ body {
 body{
     padding: 130px;
     padding-top: 100px;
+    padding-bottom: 0;
+    min-height: 100vh;
 }
 
 h1{
