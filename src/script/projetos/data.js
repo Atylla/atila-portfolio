@@ -45,8 +45,8 @@ export const projetos = {
     },
     caixafin: {
         nome: 'CaixaFin+',
-        img:    '/src/assets/terminalrpg.png',
-        linkDeploy: 'https://github.com/Atylla/CaixaFin-',
+        img:    '/src/assets/img-caixafin.png',
+        linkDeploy: 'https://caixa-fin.vercel.app/',
         linkGitHub: 'https://github.com/Atylla/CaixaFin-',
         tecnologia: [
             'React',
