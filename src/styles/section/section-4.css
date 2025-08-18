@@ -83,6 +83,7 @@ textarea:not(:placeholder-shown) + label {
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 90%;
 }
 
 .btn-form:hover {
