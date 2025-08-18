@@ -42,13 +42,13 @@
 }
 
 .footer-col a {
-    color: var(--text-color-footer, #fff);
+    color: var(--text-color, #fff);
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .footer-col a:hover {
-    color: var(--accent-color, #f45600);
+    color: #f45600;
 }
 
 .footer-bottom {

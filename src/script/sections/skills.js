@@ -60,11 +60,18 @@ const skill = {
     },
     react: {
         nome: 'React',
-        progress: '50%',
+        progress: '63%',
         topicos: [
-            'Criação de componentes funcionais',
-            'Uso de props para comunicação',
-            'Estilização com SCSS modular'
+            'Criação de componentes funcionais e JSX',
+            'Uso de props para comunicação entre componentes',
+            'Gerenciamento de estado local com useState',
+            'Manipulação de eventos e inputs controlados',
+            'Renderização de listas com map e uso correto de keys',
+            'Estilização de componentes com styled-components',
+            'Chamadas a APIs com fetch ou axios dentro de useEffect',
+            'Hooks básicos: useEffect para efeitos colaterais simples',
+            'Conhecimento inicial de TypeScript com tipagem de props e estados simples',
+            'Construção de formulários funcionais e validação básica no front-end'
         ]
     },
     reactNative: {
@@ -90,7 +97,7 @@ const skill = {
         ]
     }
 }
-    
+
 
 export const skills = () => {
 
@@ -98,8 +105,8 @@ export const skills = () => {
     const progresso = document.querySelector('.progress');
     const wrapTopico = document.querySelector('.topico-wrap');
     const btnVerProjetos = document.querySelector('.ver-projetos');
-    
-    let item = skill['javascript']; 
+
+    let item = skill['javascript'];
 
     if (item) {
         titulo.innerText = item.nome;
@@ -119,7 +126,7 @@ export const skills = () => {
         icon.addEventListener('mouseenter', () => {
             const data = icon.getAttribute('data-skill');
             const skIcon = icon.querySelector('.sk-icon');
-            
+
             item = skill[data];
             wrapTopico.innerHTML = '';
 
@@ -129,7 +136,7 @@ export const skills = () => {
 
             btnVerProjetos.setAttribute('data-filter', data);
 
-            if(item) {
+            if (item) {
                 titulo.innerText = item.nome
 
                 progresso.style.width = item.progress;
