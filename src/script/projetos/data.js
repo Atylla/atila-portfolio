@@ -42,5 +42,17 @@ export const projetos = {
             'JavaScript'
         ],
         descricao: 'Um jogo de RPG por comandos que simula um Terminal'
+    },
+    caixafin: {
+        nome: 'CaixaFin+',
+        img:    '/src/assets/terminalrpg.png',
+        linkDeploy: 'https://github.com/Atylla/CaixaFin-',
+        linkGitHub: 'https://github.com/Atylla/CaixaFin-',
+        tecnologia: [
+            'React',
+            'TypeScript',
+            'Styled-components'
+        ],
+        descricao: 'Uma aplicação web para controle de finanças'
     }
 }
